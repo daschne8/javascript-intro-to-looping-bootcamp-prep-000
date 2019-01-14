@@ -20,6 +20,6 @@ function forLoop(){
       array[i] = "I am ${i} strange loops";
     }
     //array[i] = "I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.";
-
+      console.console.log(array[i]);
   }
 }
