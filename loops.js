@@ -10,8 +10,8 @@ function whileLoop(n){
   }
   return 'done';
 }
-function forLoop(){
-  var array = [];
+function forLoop(array){
+  //var array = [];
   for(var i=0;i<25;i++){
     //console.log(i);
     if(i === 1){
@@ -20,6 +20,6 @@ function forLoop(){
       array.push("I am ${i} strange loops");
     }
     //array[i] = "I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.";
-    console.log(array[i]);
+    //console.log(array[i]);
   }
 }
