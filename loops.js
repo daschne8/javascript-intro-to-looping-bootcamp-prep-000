@@ -8,7 +8,6 @@ function whileLoop(n){
   while (n >= 0) {
     n--;
   }
-  return 'done';
 }
 function forLoop(array){
   for(let i=0;i<25;i++){
