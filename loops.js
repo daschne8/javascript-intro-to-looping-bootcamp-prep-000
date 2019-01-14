@@ -9,6 +9,7 @@ function whileLoop(n){
     n--;
     console.log(n);
   }
+  return "done";
 }
 function forLoop(array){
   for(let i=0;i<25;i++){
