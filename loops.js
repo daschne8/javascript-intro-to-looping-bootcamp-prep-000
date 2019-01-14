@@ -13,7 +13,7 @@ function whileLoop(n){
 function forLoop(){
   var array = [];
   for(var i=0;i<25;i++){
-    //array[i] = "test";
+    array[i] = "test";
     console.log(i);
     //array[i] = "I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.";
 
