@@ -10,16 +10,13 @@ function whileLoop(n){
   }
   return 'done';
 }
-function forLoop(array){
-  //var array = [];
+function forLoop(var array){
   for(var i=0;i<25;i++){
-    //console.log(i);
     if(i === 1){
       array.push("I am 1 strange loop.");
     }else{
       array.push("I am ${i} strange loops");
     }
     //array[i] = "I am ${i} strange loop${i === 0 ? \'\' : \'s\'}.";
-    //console.log(array[i]);
   }
 }
